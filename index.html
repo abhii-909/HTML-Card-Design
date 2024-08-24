@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Card Design</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: gray;
+            padding: 45px;
+        }
+        .card{
+            background-color: white;
+            width: 290px;
+            height: 444px;
+            border-radius: 7px;
+            padding: 0  0 14px 0;
+        }
+
+        .image{
+            padding: 5px;
+        }
+        .image img{
+            border-radius: 5px;
+        }
+        .content{
+            padding: 7px 13px;
+            font-family: "Poppins", sans-serif;
+        }
+        .content h2{
+            padding-bottom: 10px;
+        }
+        .content p{
+            font-size: 11px;
+            color: gray;
+        }
+        .capsules{
+            padding: 0 20px 0 10px;
+        }
+        .capsules span{
+            border: 1px solid gray;
+            padding: 0 6px;
+            border-radius: 4px;
+            font-size: 12px;
+        }
+        .button{
+            text-align: center;
+        }
+        .button button{
+            padding: 3px;
+            border-radius: 9px;
+            background-color: rgb(170, 206, 237);
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <div class = "card">
+        <div class = "image">
+            <img width = "280" src="https://images.pexels.com/photos/3880179/pexels-photo-3880179.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+        </div>
+
+        <div class="capsules">
+            <span>Nature</span>
+            <span>Lake</span>
+        </div>
+        <div class="content">
+            <h2>The wildcard for travelling</h2>
+            <p>Embark on unforgettable journeys with the this Travel Card. Discover new horizons, savor local flavors, and create memories that last a lifetime. Wherever your adventures take you, let this card be your companion, making travel simpler and more rewarding. Start your next adventure today with this Travel Card</p>
+        </div>
+        <div class="button">
+            <button>Submit</button>
+        </div>
+    </div>
+</body>
+</html>
